@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.padre1 {
+    display: flex;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    min-height: 130vh;
+}
+
+
+.informacion-2 {
+    background: linear-gradient(to left, gray 10%, white 90%); 
+    width: 50vw;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacion-2 > div{
+    margin: 1.5rem;
+}
+
+.informacion {
+    margin-left: 300px;
+    margin-top: 15px;
+    color: white;
+}
+
+.info-prin {
+    margin-top: 10px;
+}
+
+
+h1.titulo{
+    margin-top: 30px;
+}
+
+h1.especialidad{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+h2.sub-titulo {
+    margin-top: 20px;
+}
+
+ul {
+    font-size: 20px;
+    
+}
+
+button {
+    height: 30px;
+    width: 170px;
+}
+
+.formacion {
+    margin-top: 10px;
+}
+
+.titulo-pequeño {
+    margin-top: 25px;
+}
+
+section.sec-1, .sec-2 {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.sec-3 {
+    margin-left: 50px;
+}
+
+.sec-1{
+    margin-left: 9.5rem;
+}
+
+.sec-1, .sec-2, .sec-3 {
+    width: 30vw;
+}
+
+ul, p{
+    font-size: medium;
+}
+
+/*estilo al botón*/
+button{
+    border-radius: 50% 20% / 15% 40%;
+}
+
+img{
+    border-radius: 25% 10%;
+}
